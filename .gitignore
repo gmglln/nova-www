@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Claude Code — user-local settings (project-level skills/commands ARE committed)
+.claude/settings.local.json
+
+# Playwright MCP runtime cache
+.playwright-mcp/
+
+# Node / Build outputs
+node_modules/
+dist/
+build/
+.cache/
+.next/
+package-lock.json
+
+# fidelity-harness regenerates these on every run
+tools/harness/validation/
+# Big multi-bp capture fixtures — regen via capture-multi-bp.ts
+tools/harness/.captures/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Local Netlify folder
+.netlify
+
+# Master/raw assets — kept locally only
+assets-raw/
+
+# optimize-images.mjs content-hash cache (regenerable, local only)
+tools/scripts/.image-cache.json

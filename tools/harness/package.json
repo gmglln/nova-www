@@ -1,0 +1,17 @@
+{
+  "name": "@ndc-www/harness",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "fidelity-harness — A/B scoring against live ndc-md.org reference",
+  "bin": {
+    "harness": "./src/cli.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.91.1",
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.55.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.0"
+  }
+}

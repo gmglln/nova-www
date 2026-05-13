@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body baseline — matches the saydi live's documentDefaults. The live serves
+   Inter via Figma's font hosting; our localhost falls back through the same
+   stack which keeps the harness's `fontFamily` comparison happy (font
+   substitution skips pixelDiff). */
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #2D2D2D;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", sans-serif;
+  background-color: #fff;
+}
+
+/* Match the live's stripped h1 weight (500 — Tailwind preflight resets to
+   inherit which would give 400). Recovered during wave 2 — AppHeader. */
+h1 { font-weight: 500; }

@@ -1,0 +1,30 @@
+{
+  "name": "rebuild-base",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Template repo for fidelity-driven rebuilds. Vite + React + Tailwind scaffold + a Playwright/pixelmatch harness in tools/harness/ that scores rebuild fidelity (DOM / computed CSS / a11y / pixel diff) against a live target URL. Clone to start a new rebuild; populate tailwind.config.js tokens and src/components/ wave by wave.",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "node tools/scripts/optimize-images.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "optimize-images": "node tools/scripts/optimize-images.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.14.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0"
+  }
+}
