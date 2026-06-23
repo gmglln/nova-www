@@ -12,6 +12,7 @@
  *   if (route.startsWith('/post-card')) return <PostCardPage />;
  */
 import { useEffect, useState } from 'react';
+import { Home } from './screens/Home';
 import { NavbarPage } from './routes/navbar';
 import { HeroPage } from './routes/hero';
 import { FeaturesPage } from './routes/features';
@@ -50,23 +51,5 @@ export function App() {
   if (route.startsWith('/news')) return <NewsPage />;
   if (route.startsWith('/footer')) return <FooterPage />;
 
-  return (
-    <div style={{ padding: 32, fontFamily: 'system-ui' }}>
-      <h1>Nova Impulsa rebuild</h1>
-      <ul>
-        <li><a href="#/navbar">/navbar</a></li>
-        <li><a href="#/hero">/hero</a></li>
-        <li><a href="#/features">/features</a></li>
-        <li><a href="#/about">/about</a></li>
-        <li><a href="#/courses">/courses</a></li>
-        <li><a href="#/lecture-hall">/lecture-hall</a></li>
-        <li><a href="#/team">/team</a></li>
-        <li><a href="#/marquee">/marquee</a></li>
-        <li><a href="#/testimonial">/testimonial</a></li>
-        <li><a href="#/news">/news</a></li>
-        <li><a href="#/newsletter">/newsletter</a></li>
-        <li><a href="#/footer">/footer</a></li>
-      </ul>
-    </div>
-  );
+  return <Home />;
 }
