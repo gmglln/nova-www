@@ -1,0 +1,10 @@
+{
+  "slug": "hero",
+  "selector": "#harness-target",
+  "referenceSelector": "section.h-screen",
+  "breakpoints": [768, 1280],
+  "referenceUrl": "https://ranch-trade-51285426.figma.site",
+  "renderedUrl": "http://localhost:5173/#/hero",
+  "renderedSourcePath": "../../src/components/Hero.tsx",
+  "skipPixelDiff": true
+}

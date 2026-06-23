@@ -13,6 +13,7 @@
  */
 import { useEffect, useState } from 'react';
 import { NavbarPage } from './routes/navbar';
+import { HeroPage } from './routes/hero';
 
 function useHashRoute() {
   const [hash, setHash] = useState(() => window.location.hash || '#/');
@@ -27,6 +28,7 @@ function useHashRoute() {
 export function App() {
   const route = useHashRoute();
   if (route.startsWith('/navbar')) return <NavbarPage />;
+  if (route.startsWith('/hero')) return <HeroPage />;
 
   return (
     <div style={{ padding: 32, fontFamily: 'system-ui' }}>

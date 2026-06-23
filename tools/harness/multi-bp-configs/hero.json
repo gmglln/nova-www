@@ -1,0 +1,7 @@
+{
+  "componentName": "Hero",
+  "selector": "section.h-screen",
+  "breakpoints": [768, 1280],
+  "referenceUrl": "https://ranch-trade-51285426.figma.site",
+  "setupScript": "() => { document.querySelector('section.h-screen').id = 'harness-target'; }"
+}
