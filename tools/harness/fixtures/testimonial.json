@@ -1,0 +1,10 @@
+{
+  "slug": "testimonial",
+  "selector": "#harness-target",
+  "referenceSelector": "section.py-20.bg-stone-100.relative",
+  "breakpoints": [768, 1280],
+  "referenceUrl": "https://ranch-trade-51285426.figma.site",
+  "renderedUrl": "http://localhost:5173/#/testimonial",
+  "renderedSourcePath": "../../src/components/Testimonial.tsx",
+  "skipPixelDiff": true
+}

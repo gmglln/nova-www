@@ -1,0 +1,10 @@
+{
+  "slug": "footer",
+  "selector": "#harness-target",
+  "referenceSelector": "footer.relative",
+  "breakpoints": [768, 1280],
+  "referenceUrl": "https://ranch-trade-51285426.figma.site",
+  "renderedUrl": "http://localhost:5173/#/footer",
+  "renderedSourcePath": "../../src/components/Footer.tsx",
+  "skipPixelDiff": true
+}

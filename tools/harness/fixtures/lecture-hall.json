@@ -1,0 +1,10 @@
+{
+  "slug": "lecture-hall",
+  "selector": "#harness-target",
+  "referenceSelector": "section.relative.h-96.overflow-hidden",
+  "breakpoints": [768, 1280],
+  "referenceUrl": "https://ranch-trade-51285426.figma.site",
+  "renderedUrl": "http://localhost:5173/#/lecture-hall",
+  "renderedSourcePath": "../../src/components/LectureHall.tsx",
+  "skipPixelDiff": true
+}

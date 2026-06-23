@@ -1,0 +1,10 @@
+{
+  "slug": "courses",
+  "selector": "#harness-target",
+  "referenceSelector": ".min-h-screen > section:nth-child(5)",
+  "breakpoints": [768, 1280],
+  "referenceUrl": "https://ranch-trade-51285426.figma.site",
+  "renderedUrl": "http://localhost:5173/#/courses",
+  "renderedSourcePath": "../../src/components/Courses.tsx",
+  "skipPixelDiff": true
+}

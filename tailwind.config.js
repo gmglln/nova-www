@@ -39,6 +39,16 @@ export default {
         // wave 1 — Navbar: CTA button background rgb(255,158,3)
         primary: '#ff9e03',
       },
+      // wave 8 — Marquee: infinite scroll ticker animation
+      animation: {
+        ticker: 'ticker 30s linear infinite',
+      },
+      keyframes: {
+        ticker: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
     },
   },
   plugins: [],
