@@ -48,7 +48,7 @@ export function About({ id }: { id?: string }) {
             <p className="text-xs font-bold uppercase tracking-widest text-[oklch(0.551_0.027_264.364)] mb-4">
               EMPODERANDO ESTUDIANTES
             </p>
-            <h2 className="text-5xl lg:text-6xl font-bold text-[oklch(0.21_0.034_264.665)] leading-tight">
+            <h2 className="text-5xl lg:text-6xl font-bold text-[oklch(0.21_0.034_264.665)] leading-tight lg:leading-[75px]">
               Sobre nosotros
             </h2>
           </div>

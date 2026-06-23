@@ -25,7 +25,7 @@ export function Newsletter({ id }: { id?: string }) {
             <div className="w-20 h-20 flex-shrink-0">
               <img src={COFFEE_SVG} alt="Coffee cup" className="w-full h-full object-contain" />
             </div>
-            <h2 className="text-4xl lg:text-5xl font-bold text-[oklch(0.21_0.034_264.665)] leading-tight">
+            <h2 className="text-4xl lg:text-5xl font-bold text-[oklch(0.21_0.034_264.665)] leading-tight lg:leading-[60px]">
               ¡Suscríbete para las últimas actualizaciones!
             </h2>
           </div>
@@ -45,7 +45,7 @@ export function Newsletter({ id }: { id?: string }) {
                   Comenzar
                 </button>
               </div>
-              <div className="flex items-start gap-3 text-left mb-4">
+              <div className="flex items-start gap-3 text-left">
                 <input type="checkbox" id="agree" className="mt-1 w-4 h-4 accent-orange-500" />
                 <label htmlFor="agree" className="text-sm font-medium text-[oklch(0.278_0.033_256.848)]">
                   I agree that my submitted data is being{' '}

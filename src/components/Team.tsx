@@ -46,7 +46,7 @@ export function Team({ id }: { id?: string }) {
             <p className="text-xs font-bold uppercase tracking-widest text-[oklch(0.551_0.027_264.364)] mb-4">
               CONOCE A NUESTRO EQUIPO
             </p>
-            <h2 className="text-5xl lg:text-6xl font-bold text-[oklch(0.21_0.034_264.665)] mb-6 leading-tight">
+            <h2 className="text-5xl lg:text-6xl font-bold text-[oklch(0.21_0.034_264.665)] mb-6 leading-tight lg:leading-[75px]">
               Nuestro equipo
             </h2>
             <p className="text-lg text-[oklch(0.373_0.034_259.733)] leading-relaxed mb-8">

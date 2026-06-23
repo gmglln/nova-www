@@ -80,15 +80,15 @@ export function Features({ id }: { id?: string }) {
               <p className="text-xs font-bold uppercase tracking-widest text-[oklch(0.551_0.027_264.364)] mb-4">
                 POTENCIADO POR LA EDUCACIÓN
               </p>
-              <h2 className="text-5xl lg:text-6xl font-bold text-[oklch(0.21_0.034_264.665)] leading-tight">
+              <h2 className="text-5xl lg:text-6xl font-bold text-[oklch(0.21_0.034_264.665)] leading-tight lg:leading-[75px]">
                 Mejora tus habilidades a través del aprendizaje
               </h2>
             </div>
-            <div className="flex flex-col justify-center space-y-6">
-              <p className="text-base text-[oklch(0.446_0.03_256.802)] leading-relaxed">
+            <div className="flex flex-col justify-center">
+              <p className="text-base text-[oklch(0.446_0.03_256.802)] leading-relaxed mb-6">
                 En Nova Impulsa, estamos comprometidos a proporcionar educación en línea accesible y de alta calidad. Nuestros diversos cursos están diseñados para empoderar a los estudiantes y fomentar el amor por el conocimiento. Cada curso está elaborado con cuidado, asegurando una experiencia de aprendizaje atractiva y efectiva.
               </p>
-              <p className="text-base text-[oklch(0.446_0.03_256.802)] leading-relaxed">
+              <p className="text-base text-[oklch(0.446_0.03_256.802)] leading-relaxed mb-6">
                 Al aprovechar métodos de enseñanza innovadores, ayudamos a los estudiantes a alcanzar sus objetivos educativos y prepararse para sus futuras carreras.
               </p>
             </div>

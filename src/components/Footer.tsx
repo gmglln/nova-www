@@ -103,7 +103,7 @@ export function Footer({ id }: { id?: string }) {
             <h3 className="text-white text-lg font-semibold mb-6">Enlaces</h3>
             <ul className="text-sm">
               {enlaces.map((item) => (
-                <li key={item} className="mb-3">
+                <li key={item} className="mb-3 last:mb-0">
                   <a className={`${GRAY} hover:text-white transition-colors`} href="/">{item}</a>
                 </li>
               ))}
@@ -114,7 +114,7 @@ export function Footer({ id }: { id?: string }) {
             <h3 className="text-white text-lg font-semibold mb-6">Producto</h3>
             <ul className="text-sm">
               {producto.map((item) => (
-                <li key={item} className="mb-3">
+                <li key={item} className="mb-3 last:mb-0">
                   <a className={`${GRAY} hover:text-white transition-colors`} href="/">{item}</a>
                 </li>
               ))}
@@ -124,7 +124,7 @@ export function Footer({ id }: { id?: string }) {
           <div>
             <h3 className="text-white text-lg font-semibold mb-6">Contacto</h3>
             <ul className={`text-sm ${GRAY}`}>
-              <li className="mb-3">
+              <li className="mb-3 last:mb-0">
                 <a href="mailto:info@email.com" className="hover:text-white transition-colors">info@email.com</a>
               </li>
               <li className="mb-3 leading-relaxed">
@@ -138,7 +138,7 @@ export function Footer({ id }: { id?: string }) {
       </div>
 
       <button
-        className="fixed bottom-8 right-8 w-12 h-12 rounded-[33554432px] bg-white text-gray-900 flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:scale-110"
+        className="fixed bottom-8 right-8 w-12 h-12 rounded-[33554432px] bg-white text-[oklch(0.21_0.034_264.665)] flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:scale-110"
         aria-label="Scroll to top"
       >
         <ArrowUpIcon />
