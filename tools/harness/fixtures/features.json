@@ -1,0 +1,10 @@
+{
+  "slug": "features",
+  "selector": "#harness-target",
+  "referenceSelector": "section.py-20.bg-white.relative.overflow-hidden",
+  "breakpoints": [768, 1280],
+  "referenceUrl": "https://ranch-trade-51285426.figma.site",
+  "renderedUrl": "http://localhost:5173/#/features",
+  "renderedSourcePath": "../../src/components/Features.tsx",
+  "skipPixelDiff": true
+}
