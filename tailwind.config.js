@@ -36,9 +36,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Wave 1+ will populate. Example:
-        // primary: '#xxxxxx',
-        // secondary: '#xxxxxx',
+        // wave 1 — Navbar: CTA button background rgb(255,158,3)
+        primary: '#ff9e03',
       },
     },
   },

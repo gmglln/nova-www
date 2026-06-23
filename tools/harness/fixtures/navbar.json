@@ -1,0 +1,10 @@
+{
+  "slug": "navbar",
+  "selector": "#harness-target",
+  "referenceSelector": "header",
+  "breakpoints": [768, 1280],
+  "referenceUrl": "https://ranch-trade-51285426.figma.site",
+  "renderedUrl": "http://localhost:5173/#/navbar",
+  "renderedSourcePath": "../../src/components/Navbar.tsx",
+  "skipPixelDiff": true
+}

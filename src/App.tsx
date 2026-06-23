@@ -12,6 +12,7 @@
  *   if (route.startsWith('/post-card')) return <PostCardPage />;
  */
 import { useEffect, useState } from 'react';
+import { NavbarPage } from './routes/navbar';
 
 function useHashRoute() {
   const [hash, setHash] = useState(() => window.location.hash || '#/');
@@ -25,22 +26,14 @@ function useHashRoute() {
 
 export function App() {
   const route = useHashRoute();
-  // Register routes here as each wave lands:
-  // if (route.startsWith('/your-slug')) return <YourComponentPage />;
-  void route;
+  if (route.startsWith('/navbar')) return <NavbarPage />;
 
   return (
     <div style={{ padding: 32, fontFamily: 'system-ui' }}>
-      <h1>rebuild-base scaffold</h1>
-      <p>
-        Empty template. Start your first wave: capture a component from the
-        live target with{' '}
-        <code>tools/harness/src/capture-multi-bp.ts</code>, hand-write the
-        TSX into <code>src/components/</code>, create an isolation route in{' '}
-        <code>src/routes/</code>, register it above, then validate with{' '}
-        <code>tools/harness/src/cli.ts validate fixtures/&lt;slug&gt;.json</code>.
-      </p>
-      <p>See <code>CLAUDE.md</code> for the methodology and recurring patterns.</p>
+      <h1>Nova Impulsa rebuild</h1>
+      <ul>
+        <li><a href="#/navbar">/navbar</a></li>
+      </ul>
     </div>
   );
 }
