@@ -27,13 +27,13 @@ export function Testimonial({ id }: { id?: string }) {
 
           <div className="bg-white p-12 rounded-[10px] shadow-sm">
             <blockquote className="text-xl lg:text-2xl text-[oklch(0.21_0.034_264.665)] mb-8 leading-relaxed lg:leading-[39px]">
-              Gracias a Nova Impulsa, adquirí conocimiento práctico que me ayudó a avanzar en mi carrera. ¡El apoyo fue
-              excepcional!
+              Pensé que nunca terminaría la prepa. Hoy ya tengo mi certificado gracias a Nova Impulsa. El proceso fue
+              rápido, sencillo y con mucho apoyo en todo momento.
             </blockquote>
             <div className="flex items-start justify-between">
               <div>
-                <p className="text-lg font-bold text-[oklch(0.21_0.034_264.665)]">Kate Neville</p>
-                <p className="text-sm text-[oklch(0.551_0.027_264.364)]">SEO Specialist</p>
+                <p className="text-lg font-bold text-[oklch(0.21_0.034_264.665)]">María García</p>
+                <p className="text-sm text-[oklch(0.551_0.027_264.364)]">Egresada 2024</p>
               </div>
               <div className="flex gap-2">
                 <div className="w-2 h-2 rounded-[33554432px] bg-[oklch(0.872_0.01_258.338)]" />

@@ -13,16 +13,18 @@ export function Navbar({ id }: { id?: string }) {
           </a>
           <nav className="hidden md:flex items-center gap-6 ml-auto mr-16">
             <a className="transition-colors font-semibold" style={{ color: 'rgb(255, 219, 33)' }} href="/">Inicio</a>
-            <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="/programs">Programas</a>
-            <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="/about">Nosotros</a>
-            <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="/admissions">Admisiones</a>
-            <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="/contact">Contacto</a>
+            <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="#servicios">Servicios</a>
+            <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="#sedes">Sedes</a>
+            <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="#beneficios">Beneficios</a>
+            <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="#contacto">Contacto</a>
           </nav>
           <a
             className="hidden md:block text-white px-[30px] py-[15px] transition-colors font-medium -mr-14 bg-primary"
-            href="/admissions"
+            href="https://wa.me/525669363221"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Aplicar Ahora
+            Inscríbete ahora
           </a>
           <button className="md:hidden p-2 text-white">
             <svg

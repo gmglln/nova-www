@@ -1,5 +1,3 @@
-const DECO_IMG = 'https://ranch-trade-51285426.figma.site/_assets/v11/ef1d33f213015b813d890fe55317d95f47bba706.png';
-
 const ICON_BG = 'rgb(255, 232, 229)';
 const ICON_COLOR = 'rgb(255, 158, 3)';
 
@@ -21,75 +19,70 @@ const features = [
   {
     icon: (
       <svg {...ICON_ATTRS}>
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" />
+      </svg>
+    ),
+    title: 'Termina en 12 semanas',
+    desc: 'Más rápido que el sistema tradicional. Obtén tu certificado en solo 3 meses.',
+  },
+  {
+    icon: (
+      <svg {...ICON_ATTRS}>
         <rect width="20" height="14" x="2" y="3" rx="2" />
         <line x1="8" x2="16" y1="21" y2="21" />
         <line x1="12" x2="12" y1="17" y2="21" />
       </svg>
     ),
-    title: 'Cursos en línea',
-    desc: 'Aprende a programar y construir soluciones digitales reales.',
+    title: 'Sin horarios fijos',
+    desc: 'Estudia cuando puedas. Sin dejar de trabajar ni descuidar a tu familia.',
   },
   {
     icon: (
       <svg {...ICON_ATTRS}>
-        <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
-        <path d="M22 10v6" />
-        <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
       </svg>
     ),
-    title: 'Empoderando estudiantes',
-    desc: 'Gana habilidades para prosperar en una carrera lista para el futuro.',
+    title: 'Asesoría personalizada',
+    desc: 'Acompañamiento real de inicio a fin. Siempre hay alguien disponible para apoyarte.',
   },
   {
     icon: (
       <svg {...ICON_ATTRS}>
-        <path d="M2 10s3-3 3-8" />
-        <path d="M22 10s-3-3-3-8" />
-        <path d="M10 2c0 4.4-3.6 8-8 8" />
-        <path d="M14 2c0 4.4 3.6 8 8 8" />
-        <path d="M2 10s2 2 2 5" />
-        <path d="M22 10s-2 2-2 5" />
-        <path d="M8 15h8" />
-        <path d="M2 22v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1" />
-        <path d="M14 22v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1" />
+        <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+        <path d="m9 12 2 2 4-4" />
       </svg>
     ),
-    title: 'Cursos innovadores',
-    desc: 'Nos especializamos en aprendizaje en línea y desarrollo de habilidades.',
-  },
-  {
-    icon: (
-      <svg {...ICON_ATTRS}>
-        <circle cx="12" cy="12" r="10" />
-        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
-        <path d="M2 12h20" />
-      </svg>
-    ),
-    title: 'Formación personalizada',
-    desc: 'Domina idiomas globales con práctica del mundo real.',
+    title: 'Certificado oficial',
+    desc: 'Validez oficial en toda la República Mexicana. Abre puertas a estudios superiores y trabajo.',
   },
 ];
 
 export function Features({ id }: { id?: string }) {
   return (
-    <section id={id} className="py-20 bg-white relative overflow-hidden">
+    <section id={id ?? 'beneficios'} className="py-20 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-[oklch(0.551_0.027_264.364)] mb-4">
-                POTENCIADO POR LA EDUCACIÓN
+                POR QUÉ ELEGIRNOS
               </p>
               <h2 className="text-5xl lg:text-6xl font-bold text-[oklch(0.21_0.034_264.665)] leading-tight lg:leading-[75px]">
-                Mejora tus habilidades a través del aprendizaje
+                Estudia a tu ritmo, certifícate con nosotros
               </h2>
             </div>
             <div className="flex flex-col justify-center">
               <p className="text-base text-[oklch(0.446_0.03_256.802)] leading-relaxed mb-6">
-                En Nova Impulsa, estamos comprometidos a proporcionar educación en línea accesible y de alta calidad. Nuestros diversos cursos están diseñados para empoderar a los estudiantes y fomentar el amor por el conocimiento. Cada curso está elaborado con cuidado, asegurando una experiencia de aprendizaje atractiva y efectiva.
+                Somos un centro de enlace y capacitación especializado en ayudar a jóvenes y adultos a terminar su
+                preparatoria en modalidad virtual, de forma rápida, accesible y con acompañamiento personalizado.
               </p>
               <p className="text-base text-[oklch(0.446_0.03_256.802)] leading-relaxed mb-6">
-                Al aprovechar métodos de enseñanza innovadores, ayudamos a los estudiantes a alcanzar sus objetivos educativos y prepararse para sus futuras carreras.
+                Sabemos que detrás de cada inscripción hay una historia, un esfuerzo y un deseo de superarse. Por eso
+                trabajamos con responsabilidad y empatía para garantizar un proceso confiable y efectivo.
               </p>
             </div>
           </div>
@@ -106,10 +99,6 @@ export function Features({ id }: { id?: string }) {
             </div>
           ))}
         </div>
-      </div>
-
-      <div className="absolute top-10 right-10 w-32 h-32 opacity-60 pointer-events-none">
-        <img src={DECO_IMG} alt="" className="w-full h-full object-contain" />
       </div>
     </section>
   );
