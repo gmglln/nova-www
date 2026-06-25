@@ -18,7 +18,7 @@ export function Hero({ id }: { id?: string }) {
 
       <div className="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="absolute -left-4 sm:-left-2 lg:-left-4 top-1/2 -translate-y-[78%] max-w-3xl">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 lg:mb-8 leading-tight whitespace-nowrap">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 lg:mb-8 leading-tight whitespace-nowrap [letter-spacing:-0.02em]">
             Aprende en<br />
             cualquier momento<br />
             en cualquier lugar

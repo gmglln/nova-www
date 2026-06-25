@@ -18,7 +18,7 @@ function DecoFlowerPink() {
 
 export function Newsletter({ id }: { id?: string }) {
   return (
-    <section id={id} className="py-20 relative overflow-hidden" style={{ backgroundColor: 'rgb(255, 193, 7)' }}>
+    <section id={id} className="py-20 relative overflow-hidden" style={{ backgroundColor: 'rgb(255, 219, 33)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex items-start gap-6 lg:w-1/2">
@@ -35,12 +35,13 @@ export function Newsletter({ id }: { id?: string }) {
                 <input
                   type="email"
                   placeholder="Tu Dirección de Correo"
-                  className="flex-1 px-6 py-4 bg-white text-[oklch(0.21_0.034_264.665)] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  className="flex-1 px-6 py-4 text-[oklch(0.21_0.034_264.665)] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  style={{ backgroundColor: 'rgb(251, 249, 245)' }}
                 />
                 <button
                   type="submit"
                   className="px-8 py-4 text-white font-semibold transition-colors whitespace-nowrap"
-                  style={{ backgroundColor: 'rgb(255, 158, 3)' }}
+                  style={{ backgroundColor: 'rgb(255, 92, 42)' }}
                 >
                   Comenzar
                 </button>

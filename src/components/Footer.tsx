@@ -44,15 +44,6 @@ function GlobeIcon() {
   );
 }
 
-function LogoIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-8 h-8">
-      <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#0a0a1a" stroke="#0a0a1a" strokeWidth="1" />
-      <path d="M2 17L12 22L22 17" stroke="#0a0a1a" strokeWidth="2" strokeLinecap="round" />
-      <path d="M2 12L12 17L22 12" stroke="#0a0a1a" strokeWidth="2" strokeLinecap="round" />
-    </svg>
-  );
-}
 
 function ArrowUpIcon() {
   return (
@@ -81,10 +72,12 @@ export function Footer({ id }: { id?: string }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-[10px] flex items-center justify-center" style={{ backgroundColor: 'rgb(255, 193, 7)' }}>
-                <LogoIcon />
-              </div>
-              <h3 className="text-white text-2xl font-bold">Uni</h3>
+              <img
+                src="https://ranch-trade-51285426.figma.site/_assets/v11/6201b2698ea74d003d56e3eae6fb1a00124fa9ea.png"
+                alt="Nova Impulsa Logo"
+                className="h-12 w-auto"
+              />
+              <h3 className="text-white text-2xl font-bold">Nova Impulsa</h3>
             </div>
             <p className={`${GRAY} text-sm leading-relaxed mb-6`}>
               Empoderando a estudiantes en todo el mundo a través de educación en línea accesible y de alta calidad,

@@ -27,7 +27,7 @@ export function Testimonial({ id }: { id?: string }) {
 
           <div className="bg-white p-12 rounded-[10px] shadow-sm">
             <blockquote className="text-xl lg:text-2xl text-[oklch(0.21_0.034_264.665)] mb-8 leading-relaxed lg:leading-[39px]">
-              Gracias a Uni, adquirí conocimiento práctico que me ayudó a avanzar en mi carrera. ¡El apoyo fue
+              Gracias a Nova Impulsa, adquirí conocimiento práctico que me ayudó a avanzar en mi carrera. ¡El apoyo fue
               excepcional!
             </blockquote>
             <div className="flex items-start justify-between">

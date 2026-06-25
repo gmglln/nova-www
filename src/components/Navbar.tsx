@@ -12,14 +12,14 @@ export function Navbar({ id }: { id?: string }) {
             <span className="text-2xl font-bold text-white">Nova Impulsa</span>
           </a>
           <nav className="hidden md:flex items-center gap-6 ml-auto mr-16">
-            <a className="transition-colors font-semibold text-white" href="/">Inicio</a>
+            <a className="transition-colors font-semibold" style={{ color: 'rgb(255, 219, 33)' }} href="/">Inicio</a>
             <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="/programs">Programas</a>
             <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="/about">Nosotros</a>
             <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="/admissions">Admisiones</a>
             <a className="transition-colors text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] hover:text-white" href="/contact">Contacto</a>
           </nav>
           <a
-            className="hidden md:block text-white px-6 py-2 transition-colors font-semibold -mr-14 bg-primary"
+            className="hidden md:block text-white px-[30px] py-[15px] transition-colors font-medium -mr-14 bg-primary"
             href="/admissions"
           >
             Aplicar Ahora

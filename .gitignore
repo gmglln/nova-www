@@ -37,3 +37,6 @@ assets-raw/
 
 # optimize-images.mjs content-hash cache (regenerable, local only)
 tools/scripts/.image-cache.json
+
+# Session screenshots (MCP Playwright captures — local only)
+/*.png
