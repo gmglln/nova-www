@@ -6,8 +6,7 @@ const AVATAR_URLS = [
   'https://images.unsplash.com/photo-1674928286503-facfe61eb634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjB0ZWFjaGVyJTIwcG9ydHJhaXQlMjBzbWlsZXxlbnwxfHx8fDE3NzE5MDA0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
 ];
 
-// TODO: reemplazar con la foto real de Elvis (mascota del centro) cuando el cliente la envíe
-const CARD_IMG = 'https://placehold.co/400x300?text=Elvis';
+const CARD_IMG = '/images/elvis-director.webp';
 
 export function Hero({ id }: { id?: string }) {
   return (
@@ -74,7 +73,7 @@ export function Hero({ id }: { id?: string }) {
           <div className="hidden lg:block -mr-14">
             <div className="bg-white rounded-[10px] shadow-2xl p-5 w-80">
               <div className="mb-4 rounded-[10px] overflow-hidden">
-                <img src={CARD_IMG} alt="Elvis — mascota del centro" className="w-full h-40 object-cover" />
+                <img src={CARD_IMG} alt="Elvis — mascota del centro" className="w-full h-40 object-cover object-[50%_22%]" />
               </div>
               <div className="mb-3 flex items-center gap-2">
                 <span className="inline-block w-2 h-2 rounded-full" style={{ backgroundColor: '#25D366' }} />
