@@ -27,7 +27,7 @@ export function Newsletter({ id }: { id?: string }) {
               ¿Listo para obtener tu certificado?
             </h2>
             <p className="text-base text-[oklch(0.278_0.033_256.848)] leading-relaxed">
-              Lun–Vie 9am–6pm · Atención virtual vía Zoom y WhatsApp
+              Atención virtual vía Zoom y WhatsApp
             </p>
           </div>
           <div className="lg:w-1/2 w-full flex flex-col gap-4">

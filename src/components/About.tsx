@@ -28,14 +28,15 @@ export function About({ id }: { id?: string }) {
               Centro Educativo Nova Impulsa nació de la necesidad real que viven miles de jóvenes y adultos en
               México: la dificultad de terminar su preparatoria por falta de tiempo, recursos o flexibilidad. Somos
               un centro de enlace y capacitación especializado en la certificación de bachillerato en modalidad
-              100% en línea.
+              100% virtual.
             </p>
           </div>
           <div>
             <p className="text-base text-[oklch(0.446_0.03_256.802)] leading-relaxed">
-              Con presencia en 8 sedes a lo largo de la República Mexicana, acompañamos a cada alumno de inicio
-              a fin con asesoría personalizada, horarios flexibles y un proceso confiable y accesible. Nuestro
-              compromiso es que nadie se quede sin su certificado por falta de oportunidades.
+              Con presencia en 8 sedes a lo largo de la República Mexicana y más de 6 años de experiencia en
+              procesos virtuales, acompañamos a cada alumno de inicio a fin con asesoría personalizada, horarios
+              flexibles y un proceso confiable y accesible. Nuestro compromiso es que nadie se quede sin su
+              certificado por falta de oportunidades.
             </p>
           </div>
         </div>

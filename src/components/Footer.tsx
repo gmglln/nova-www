@@ -59,7 +59,7 @@ const programa = [
   { label: 'Certificación en Bachillerato', href: '#servicios' },
   { label: 'Cómo funciona', href: '#como-funciona' },
   { label: 'Egresados', href: '#egresados' },
-  { label: 'Modalidad 100% en línea', href: '#beneficios' },
+  { label: 'Modalidad 100% virtual', href: '#beneficios' },
   { label: 'Inscribirse ahora', href: 'https://wa.me/525669363221' },
 ];
 
@@ -78,7 +78,7 @@ export function Footer({ id }: { id?: string }) {
               <h3 className="text-white text-2xl font-bold">Nova Impulsa</h3>
             </div>
             <p className={`${GRAY} text-sm leading-relaxed mb-6`}>
-              Centro Educativo Nova Impulsa — Certificación en bachillerato 100% en línea. Formamos mentes,
+              Centro Educativo Nova Impulsa — Certificación en bachillerato 100% virtual. Formamos mentes,
               construimos futuros en toda la República Mexicana.
             </p>
             <div className="flex gap-3">
@@ -140,10 +140,9 @@ export function Footer({ id }: { id?: string }) {
                 </a>
               </li>
               <li className="leading-relaxed">
-                Horario: Lun–Vie 9am–6pm<br />
                 Atención virtual vía Zoom y WhatsApp
               </li>
-              <li>Modalidad 100% en línea</li>
+              <li>Modalidad 100% virtual</li>
             </ul>
           </div>
         </div>

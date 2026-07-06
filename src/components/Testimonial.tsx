@@ -33,7 +33,7 @@ export function Testimonial({ id }: { id?: string }) {
             <div className="flex items-start justify-between">
               <div>
                 <p className="text-lg font-bold text-[oklch(0.21_0.034_264.665)]">María García</p>
-                <p className="text-sm text-[oklch(0.551_0.027_264.364)]">Egresada 2024</p>
+                <p className="text-sm text-[oklch(0.551_0.027_264.364)]">Egresada · Ciudad de México</p>
               </div>
               <div className="flex gap-2">
                 <div className="w-2 h-2 rounded-[33554432px] bg-[oklch(0.872_0.01_258.338)]" />

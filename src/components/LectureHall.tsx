@@ -12,7 +12,7 @@ const steps = [
   {
     num: '03',
     title: 'Obtén tu certificado',
-    desc: 'Culmina el proceso y recibe tu certificado de bachillerato con validez oficial en toda la República.',
+    desc: 'Culmina el proceso y recibe tu certificado de bachillerato con validez oficial nacional y en el extranjero.',
   },
 ];
 

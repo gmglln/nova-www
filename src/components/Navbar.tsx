@@ -7,9 +7,12 @@ export function Navbar({ id }: { id?: string }) {
             <img
               src="https://ranch-trade-51285426.figma.site/_assets/v11/6201b2698ea74d003d56e3eae6fb1a00124fa9ea.png"
               alt="Nova Impulsa Logo"
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
-            <span className="text-2xl font-bold text-white">Nova Impulsa</span>
+            <span className="flex flex-col leading-tight">
+              <span className="text-xs font-semibold uppercase tracking-widest text-white/80">Centro Educativo</span>
+              <span className="text-2xl font-bold text-white">Nova Impulsa</span>
+            </span>
           </a>
           <nav className="hidden md:flex items-center gap-6 ml-auto mr-16">
             <a className="transition-colors font-semibold" style={{ color: 'rgb(255, 219, 33)' }} href="/">Inicio</a>

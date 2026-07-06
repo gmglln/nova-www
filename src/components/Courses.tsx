@@ -2,8 +2,8 @@ const HERO_IMG = 'https://images.unsplash.com/photo-1589829100333-e215933ccd67?c
 
 const attributes = [
   { icon: '⏱', label: '12 semanas' },
-  { icon: '💻', label: '100% en línea' },
-  { icon: '🏛', label: 'Validez oficial' },
+  { icon: '💻', label: '100% virtual' },
+  { icon: '🏛', label: 'Validez nacional y en el extranjero' },
   { icon: '🗓', label: 'Sin horarios fijos' },
 ];
 
@@ -33,8 +33,8 @@ export function Courses({ id }: { id?: string }) {
               Certificación en Bachillerato
             </h3>
             <p className="text-base text-[oklch(0.446_0.03_256.802)] leading-relaxed mb-8">
-              Obtén tu certificado de preparatoria con validez oficial en toda la República Mexicana. Estudia a
-              tu ritmo, sin horarios fijos, con el acompañamiento personalizado de nuestros asesores.
+              Obtén tu certificado de preparatoria con validez oficial en toda la República Mexicana y en el
+              extranjero. Estudia a tu ritmo, sin horarios fijos, con el acompañamiento personalizado de nuestros asesores.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">
@@ -48,7 +48,7 @@ export function Courses({ id }: { id?: string }) {
 
             <div className="border-t border-gray-100 pt-6 mb-8">
               <p className="text-2xl font-bold text-[oklch(0.21_0.034_264.665)]">
-                Inscripción desde <span style={{ color: 'rgb(255, 158, 3)' }}>$700</span>
+                Inscripción <span style={{ color: 'rgb(255, 158, 3)' }}>Gratis</span>
               </p>
               <p className="text-sm text-[oklch(0.551_0.027_264.364)] mt-1">
                 Mensualidades accesibles · Pregunta por las becas disponibles

@@ -57,7 +57,7 @@ const features = [
       </svg>
     ),
     title: 'Certificado oficial',
-    desc: 'Validez oficial en toda la República Mexicana. Abre puertas a estudios superiores y trabajo.',
+    desc: 'Validez oficial nacional y en el extranjero. Abre puertas a estudios superiores y trabajo.',
   },
 ];
 
