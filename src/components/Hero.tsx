@@ -6,7 +6,7 @@ const AVATAR_URLS = [
   'https://images.unsplash.com/photo-1674928286503-facfe61eb634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjB0ZWFjaGVyJTIwcG9ydHJhaXQlMjBzbWlsZXxlbnwxfHx8fDE3NzE5MDA0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
 ];
 
-const CARD_IMG = 'https://images.unsplash.com/photo-1728023881214-1d71a7a30a01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50cyUyMGNvbGxhYm9yYXRpdmUlMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzcxOTAwNDk3fDA&ixlib=rb-4.1.0&q=80&w=1080';
+const CARD_IMG = '/images/elvis-director.webp';
 
 export function Hero({ id }: { id?: string }) {
   return (
@@ -23,7 +23,7 @@ export function Hero({ id }: { id?: string }) {
             construimos futuros
           </h1>
           <p className="text-lg text-white/90 mb-8 max-w-lg leading-relaxed lg:hidden">
-            Termina tu preparatoria en 12 semanas, 100% en línea, con acompañamiento personalizado.
+            Termina tu preparatoria en 12 semanas, 100% virtual, con acompañamiento personalizado.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
@@ -49,7 +49,7 @@ export function Hero({ id }: { id?: string }) {
 
         <div className="hidden lg:block absolute top-60 -right-6 max-w-sm">
           <p className="text-base text-[oklab(0.999994_0.0000455678_0.0000200868_/_0.9)] leading-relaxed text-right">
-            Ayudamos a jóvenes mayores de 15 años<br />
+            Ayudamos a jóvenes mayores de 17 años<br />
             y adultos a terminar su preparatoria<br />
             en modalidad virtual, rápida y accesible.
           </p>
@@ -73,15 +73,18 @@ export function Hero({ id }: { id?: string }) {
           <div className="hidden lg:block -mr-14">
             <div className="bg-white rounded-[10px] shadow-2xl p-5 w-80">
               <div className="mb-4 rounded-[10px] overflow-hidden">
-                <img src={CARD_IMG} alt="Estudiando" className="w-full h-40 object-cover" />
+                <img src={CARD_IMG} alt="Elvis — mascota del centro" className="w-full h-40 object-cover object-[50%_22%]" />
               </div>
               <div className="mb-3 flex items-center gap-2">
                 <span className="inline-block w-2 h-2 rounded-full" style={{ backgroundColor: '#25D366' }} />
-                <span className="text-xs font-semibold text-[oklch(0.551_0.027_264.364)] uppercase tracking-wide">100% en línea</span>
+                <span className="text-xs font-semibold text-[oklch(0.551_0.027_264.364)] uppercase tracking-wide">100% virtual</span>
               </div>
               <h3 className="text-lg font-bold text-[oklch(0.21_0.034_264.665)] leading-tight">
                 Certifícate en 12 semanas · Sin horarios fijos
               </h3>
+              <p className="mt-2 text-xs text-[oklch(0.551_0.027_264.364)]">
+                Con Elvis, la mascota del centro 🐾
+              </p>
             </div>
           </div>
         </div>
