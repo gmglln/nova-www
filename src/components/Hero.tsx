@@ -79,9 +79,9 @@ export function Hero({ id }: { id?: string }) {
                 <span className="inline-block w-2 h-2 rounded-full" style={{ backgroundColor: '#25D366' }} />
                 <span className="text-xs font-semibold text-[oklch(0.551_0.027_264.364)] uppercase tracking-wide">100% virtual</span>
               </div>
-              <h3 className="text-lg font-bold text-[oklch(0.21_0.034_264.665)] leading-tight">
+              <p className="text-lg font-bold text-[oklch(0.21_0.034_264.665)] leading-tight">
                 Certifícate en 12 semanas · Sin horarios fijos
-              </h3>
+              </p>
               <p className="mt-2 text-xs text-[oklch(0.551_0.027_264.364)]">
                 Con Elvis, la mascota del centro 🐾
               </p>
