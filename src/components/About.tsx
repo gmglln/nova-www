@@ -1,5 +1,5 @@
 const IMG1 = 'https://images.unsplash.com/photo-1670852714979-f73d21652a83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBob2xkaW5nJTIwdGFibGV0JTIwZHJhd2luZyUyMGNvbG9yc3xlbnwxfHx8fDE3NzE5MDI2MTd8MA&ixlib=rb-4.1.0&q=80&w=1080';
-const IMG2 = 'https://images.unsplash.com/photo-1765648684593-e3de4074ef1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b3JraW5nJTIwbGFwdG9wJTIwY29mZmVlJTIwZGVza3xlbnwxfHx8fDE3NzE5MDI2MTd8MA&ixlib=rb-4.1.0&q=80&w=1080';
+const IMG2 = '/images/elvis-oficina.webp';
 
 export function About({ id }: { id?: string }) {
   return (
@@ -10,7 +10,7 @@ export function About({ id }: { id?: string }) {
             <img src={IMG1} alt="Estudiante con tablet" className="w-full h-full object-cover" />
           </div>
           <div className="h-80 overflow-hidden">
-            <img src={IMG2} alt="Asesor trabajando" className="w-full h-full object-cover" />
+            <img src={IMG2} alt="Elvis, la mascota del centro, trabajando en la oficina" className="w-full h-full object-cover object-[50%_15%]" />
           </div>
         </div>
 

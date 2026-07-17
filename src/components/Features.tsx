@@ -67,13 +67,18 @@ export function Features({ id }: { id?: string }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
+            <div className="relative">
               <p className="text-xs font-bold uppercase tracking-widest text-[oklch(0.551_0.027_264.364)] mb-4">
                 POR QUÉ ELEGIRNOS
               </p>
               <h2 className="text-5xl lg:text-6xl font-bold text-[oklch(0.21_0.034_264.665)] leading-tight lg:leading-[75px]">
                 Estudia a tu ritmo, certifícate con nosotros
               </h2>
+              <img
+                src="/images/elvis-academico.webp"
+                alt="Elvis, la mascota del centro, estudiando"
+                className="hidden lg:block absolute -top-4 right-0 w-24 h-24 rounded-[33554432px] object-cover object-[50%_15%] border-4 border-white shadow-lg rotate-6"
+              />
             </div>
             <div className="flex flex-col justify-center">
               <p className="text-base text-[oklch(0.446_0.03_256.802)] leading-relaxed mb-6">

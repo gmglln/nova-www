@@ -26,9 +26,16 @@ export function Newsletter({ id }: { id?: string }) {
             <h2 className="text-4xl lg:text-5xl font-bold text-[oklch(0.21_0.034_264.665)] leading-tight lg:leading-[60px] mb-4">
               ¿Listo para obtener tu certificado?
             </h2>
-            <p className="text-base text-[oklch(0.278_0.033_256.848)] leading-relaxed">
-              Atención virtual vía Zoom y WhatsApp
-            </p>
+            <div className="flex items-center gap-3">
+              <img
+                src="/images/elvis-futbol.webp"
+                alt="Elvis, la mascota del centro"
+                className="w-12 h-12 rounded-[33554432px] object-cover object-[50%_15%] border-2 border-[oklch(0.21_0.034_264.665)]"
+              />
+              <p className="text-base text-[oklch(0.278_0.033_256.848)] leading-relaxed">
+                Atención virtual vía Zoom y WhatsApp
+              </p>
+            </div>
           </div>
           <div className="lg:w-1/2 w-full flex flex-col gap-4">
             <a
